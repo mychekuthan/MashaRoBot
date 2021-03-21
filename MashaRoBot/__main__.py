@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD MASHA TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="➕️HI IAM @ChekuthaN469's BOT➕️", url="t.me/MashaRoBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
@@ -98,7 +98,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [MASHA🙋‍♀️](https://telegra.ph/file/6937614341f42020a2ebc.jpg)
+`Hi.. I'm` [Queen469 bot](https://telegra.ph/file/6937614341f42020a2ebc.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
