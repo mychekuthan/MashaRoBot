@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/6937614341f42020a2ebc.jpg) `My name is` *Masha*
+`Hellow` [🤗](https://telegra.ph/file/016e52021859e3775bb31.jpg) `My name is` *Queen469*
 `I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
 """
 
@@ -102,7 +102,7 @@ HELP_STRINGS = """
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-MASHA_IMG = "https://telegra.ph/file/6937614341f42020a2ebc.jpg"
+MASHA_IMAGE"https://telegra.ph/file/016e52021859e3775bb31.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
