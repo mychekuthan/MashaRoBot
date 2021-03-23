@@ -84,7 +84,7 @@ buttons = [
             text="➕️HI IAM @ChekuthaN469's BOT➕️", url="t.me/MashaRoBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="queen_"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
     [
@@ -350,9 +350,9 @@ def help_button(update, context):
 @run_async
 def Masha_about_callback(update, context):
     query = update.callback_query
-    if query.data == "masha_":
+    if query.data == "queen_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *MASHA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *queen469*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -387,7 +387,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *MASHA*
+            text=""" Hi..🤗 I'm *queen469*
                  \nHere is the [Source Code](https://github.com/Mr-Dark-Prince/MashaRoBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
