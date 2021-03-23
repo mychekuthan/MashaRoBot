@@ -84,7 +84,7 @@ buttons = [
             text="➕️HI IAM @ChekuthaN469's BOT➕️", url="t.me/MashaRoBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="queen_"),
+        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="queen"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
     [
@@ -98,7 +98,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Queen469 bot](https://telegra.ph/file/6937614341f42020a2ebc.jpg)
+`Hi.. I'm` [queen469bot](https://telegra.ph/file/6937614341f42020a2ebc.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
@@ -350,7 +350,7 @@ def help_button(update, context):
 @run_async
 def Masha_about_callback(update, context):
     query = update.callback_query
-    if query.data == "queen_":
+    if query.data == "queen":
         query.message.edit_text(
             text=""" ℹ️ I'm *queen469*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
